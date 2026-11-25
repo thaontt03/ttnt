@@ -1,0 +1,4 @@
+# Thư mục chứa các file .pkl sau khi train
+# best_model.pkl
+# preprocessing_pipeline.pkl
+# model_comparison.csv

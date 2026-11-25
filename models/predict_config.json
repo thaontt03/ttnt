@@ -1,0 +1,22 @@
+{
+  "dropout_threshold": 0.45,
+  "best_model": "LightGBM",
+  "thresholds": {
+    "LightGBM": 0.45,
+    "XGBoost": 0.4,
+    "Gradient Boosting": 0.39,
+    "Extra Trees": 0.34,
+    "Random Forest": 0.37,
+    "Logistic Regression": 0.35,
+    "SVM": 0.35,
+    "AdaBoost": 0.33,
+    "Decision Tree": 0.17,
+    "KNN": 0.23
+  },
+  "recall_target": 0.75,
+  "cv_folds": 5,
+  "test_size": 0.2,
+  "n_train": 3539,
+  "n_test": 885,
+  "trained_at": "2026-11-25T16:43:27"
+}

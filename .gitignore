@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data: dataset UCI nhỏ (~0.5 MB) được commit để app chạy ngay sau khi clone
+
+# Models (file lớn, nên dùng Git LFS hoặc bỏ qua)
+# models/*.pkl   # Bỏ comment nếu không muốn commit model
+
+# Reports
+reports/report.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.env
+
+# Bản sao lưu & log cục bộ
+_backup/
+install_log.txt
+.streamlit/secrets.toml
